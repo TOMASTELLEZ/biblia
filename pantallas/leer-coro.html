@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer himno - Memoriza La Palabra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/biblia.css">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="../img/logo_2.png">
+    <meta name="theme-color" content="#0b1e3e">
+</head>
+<body class="leer-page-body leer-coro-body">
+    <header class="header-lectura">
+        <div class="toolbar-lectura">
+            <a href="coros.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Volver a himnos</a>
+        </div>
+        <div class="titulo-lectura">
+            <h1 id="titulo-himno">Cargando himno...</h1>
+        </div>
+    </header>
+
+    <main class="main-content leer-page">
+        <section class="leer-screen">
+            <article id="letra-himno" class="contenedor-lectura">
+                <p>Cargando letra...</p>
+            </article>
+        </section>
+    </main>
+
+    <button id="btn-scroll-himno" class="scroll-himno-btn" type="button"
+        aria-label="Iniciar desplazamiento automático" aria-pressed="false" title="Iniciar desplazamiento">
+        <i class="fa-solid fa-play" aria-hidden="true"></i>
+    </button>
+
+    <script type="module" src="../js/leer-coro.js"></script>
+    <script src="../js/register-sw.js"></script>
+</body>
+</html>

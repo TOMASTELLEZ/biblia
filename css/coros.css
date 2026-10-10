@@ -1,0 +1,114 @@
+.coros-page .header {
+    margin-bottom: 28px;
+}
+
+.coros-page .bible-container {
+    max-width: 980px;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.coros-page .testament-section {
+    margin: 0;
+}
+
+.coros-page .testament-title {
+    font-size: 1.15rem;
+}
+
+.coros-page .books-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+    gap: 16px;
+}
+
+.himno-card {
+    justify-content: flex-start;
+    gap: 14px;
+    min-height: 92px;
+    padding: 16px;
+    text-align: left;
+    background: linear-gradient(135deg, #ffffff 0%, #f5f8ff 100%);
+    border-color: #e2e8f0;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+}
+
+.himno-card:hover {
+    background: #ffffff;
+    color: #1e3a8a;
+    border-color: #a5b4fc;
+    box-shadow: 0 12px 26px rgba(57, 73, 171, 0.12);
+}
+
+.himno-card-icon {
+    display: grid;
+    width: 48px;
+    height: 48px;
+    flex: 0 0 48px;
+    place-items: center;
+    border-radius: 15px;
+    background: #e8edff;
+    color: #3949ab;
+    font-size: 1.15rem;
+}
+
+.himno-card-info {
+    display: grid;
+    min-width: 0;
+    gap: 4px;
+}
+
+.himno-card-label {
+    color: #64748b;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.himno-card-title {
+    color: #172554;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.himno-card-arrow {
+    margin-left: auto;
+    color: #64748b;
+    font-size: 0.85rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.himno-card:hover .himno-card-arrow {
+    color: #3949ab;
+    transform: translateX(3px);
+}
+
+@media (max-width: 900px) {
+    .coros-page .main-content {
+        padding: 28px 22px;
+    }
+
+    .coros-page .bible-container {
+        padding: 26px;
+    }
+}
+
+@media (max-width: 600px) {
+    .coros-page .main-content {
+        padding: 22px 14px 30px;
+    }
+
+    .coros-page .bible-container {
+        padding: 20px 16px;
+        border-radius: 18px;
+    }
+
+    .coros-page .books-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .himno-card {
+        min-height: 82px;
+    }
+}

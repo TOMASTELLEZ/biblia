@@ -1,0 +1,22 @@
+{
+  "name": "Memoriza La Palabra",
+  "short_name": "Memoriza",
+  "description": "Aplicación para memorizar versículos bíblicos y favoritos.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1e3e",
+  "theme_color": "#0b1e3e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "img/logo_2.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "img/logo_2.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoriza La Palabra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="img/logo_2.png">
+    <meta name="theme-color" content="#0b1e3e">
+</head>
+
+<body>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <div>
+                <h2>Memoriza</h2>
+                <span>LA PALABRA</span>
+            </div>
+        </div>
+
+        <nav>
+            <a class="active" href="index.html">
+                <i class="fa-solid fa-house"></i> Inicio
+            </a>
+            <a href="pantallas/biblia.html">
+                <i class="fa-solid fa-book-bible"></i> Biblia
+            </a>
+            <a href="pantallas/memorizar.html">
+                <i class="fa-solid fa-brain"></i> Memorizar versículos
+            </a>
+            <a href="pantallas/coros.html">
+                <i class="fa-solid fa-music"></i> Himnos de coros
+            </a>
+        </nav>
+
+        <div class="verse-card">
+            <h4>Versículo del día</h4>
+            <p class="reference" id="referencia">Salmos 119:105</p>
+            <p id="textoVersiculo">"Lámpara es a mis pies tu palabra, y lumbrera a mi camino."</p>
+        </div>
+    </aside>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="main-content">
+        <!-- Encabezado -->
+        <header class="header">
+            <h1>¡Bienvenido!</h1>
+            <p>Continúa tu camino de aprendizaje</p>
+        </header>
+
+        <!-- Tarjeta "Continúa Aprendiendo" -->
+        <section class="continue-card">
+            <div class="continue-info">
+                <span class="subtitle" id="continue-subtitle">Continúa aprendiendo</span>
+                <h2 id="continue-title">Juan 3:16</h2>
+                <p id="continue-text">Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.</p>
+                <button id="continue-action" class="btn-primary" type="button">
+                    <i class="fa-solid fa-play"></i> Continuar aprendizaje
+                </button>
+                
+            </div>
+            
+            <div class="continue-image">
+                <!-- Asegúrate de tener una imagen similar o usar una tuya -->
+                <img src="img/logo_3.png" alt="Biblia Ilustración">
+            </div>
+        </section>
+
+        <!-- Panel de seguimiento -->
+        <!-- Panel de seguimiento Unificado -->
+<section class="lists-grid">
+    
+    <!-- Bloque 1: Versículos en progreso -->
+    <div class="info-card">
+        <div class="card-header">
+            <div class="header-title">
+                <h3>Versículos en progreso</h3>
+            </div>
+            <div class="stat-info">
+                <h3 id="pendientes-count" class="badge">2</h3>
+            </div>
+        </div>
+        <div id="pendientes-list" class="info-list">
+            <!-- Aquí se inyectarán tus tarjetas de versículos -->
+            <p>No hay versículos en progreso.</p>
+        </div>
+    </div>
+
+    <!-- Bloque 2: Versículos favoritos -->
+    <div class="info-card">
+        <div class="card-header">
+            <div class="header-title">
+                <h3>Versículos favoritos</h3>
+            </div>
+            <div class="stat-info">
+                <h3 id="favoritos-count" class="badge">1</h3>
+            </div>
+        </div>
+        <div id="favoritos-list" class="info-list">
+            <p>No hay favoritos guardados.</p>
+        </div>
+    </div>
+    
+</section>
+
+        <section class="info-card coro-feature">
+            <div class="card-header">
+                <div class="header-title">
+                    <h3>Himnos de coros</h3>
+                </div>
+                <div class="stat-info">
+                    <a href="pantallas/coros.html" class="btn-primary">
+                        <i class="fa-solid fa-music"></i> Ver todos
+                    </a>
+                </div>
+            </div>
+            <p>Himnos para alabar, recordar la fe y acompañar tus momentos de oración.</p>
+            <div class="coros-grid">
+                <article class="coro-card">
+                    <h3>Anhelo trabajar por el Señor</h3>
+                    <span class="coro-tag">Himno</span>
+                    <pre>Anhelo trabajar por el Señor
+Confiando en su palabra y en su amor</pre>
+                </article>
+            </div>
+        </section>
+        
+    </main>
+
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/versiculo_diario.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/register-sw.js"></script>
+</body>
+</html>

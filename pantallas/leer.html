@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer - Memoriza La Palabra</title>
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/biblia.css">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="../img/logo_2.png">
+    <meta name="theme-color" content="#0b1e3e">
+</head>
+<body class="leer-page-body">
+    <header class="header-lectura">
+        <div class="toolbar-lectura">
+            <a href="biblia.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+            <div class="controles" id="controles-capitulos" style="display: none;">
+                <label for="select-capitulo">Capítulo:</label>
+                <select id="select-capitulo"></select>
+            </div>
+        </div>
+
+        <div class="titulo-lectura">
+            <h1 id="titulo-libro">Cargando...</h1>
+        </div>
+    </header>
+
+    <main class="main-content leer-page">
+        <section class="leer-screen">
+            <div id="contenedor-lectura" class="contenedor-lectura">
+                <p>Buscando el libro en la base de datos...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Script de lógica de lectura -->
+    <script type="module" src="../js/leer.js"></script>
+    <script type="module" src="../js/versiculo_diario.js"></script>
+    <script src="../js/mobile-menu.js"></script>
+    <script src="../js/register-sw.js"></script>
+
+</body>
+</html>

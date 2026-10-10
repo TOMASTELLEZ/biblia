@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Memoriza La Palabra</title>
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/biblia.css">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="../img/logo_2.png">
+    <meta name="theme-color" content="#0b1e3e">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <!-- Logo -->
+
+        <div class="logo">
+            <img src="../img/logo.png" alt="Logo">
+            <div>
+                <h2>Memoriza</h2>
+                <span>LA PALABRA</span>
+            </div>
+        </div>
+
+        <!-- Menú -->
+        <nav>
+            <a href="../index.html">
+                <i class="fa-solid fa-house"></i>
+                Inicio
+            </a>
+            <a class="active" href="../pantallas/biblia.html">
+                <i class="fa-solid fa-book-bible"></i>
+                Biblia
+            </a>
+            <a href="../pantallas/memorizar.html">
+                <i class="fa-solid fa-brain"></i> Memorizar versículos
+            </a>
+            <a href="../pantallas/coros.html">
+                <i class="fa-solid fa-music"></i>
+                Himnos de coros
+            </a>
+        </nav>
+
+        <!-- Tarjeta -->
+        <div class="verse-card">
+
+    <h4>Versículo del día</h4>
+
+    <p class="reference" id="referencia">
+
+        Cargando...
+
+    </p>
+
+    <p id="textoVersiculo">
+
+        Cargando versículo...
+
+    </p>
+
+</div>
+
+    </aside>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- CONTENIDO PRINCIPAL: LIBROS DE LA BIBLIA -->
+    <main class="main-content">
+        <header class="header">
+            <h1>La Biblia</h1>
+            <p>Selecciona un libro para comenzar a leer</p>
+        </header>
+
+        <!-- Contenedor dinámico para los libros -->
+        <div class="bible-container">
+            
+            <!-- Antiguo Testamento -->
+            <section class="testament-section">
+                <h3 class="testament-title">Antiguo Testamento</h3>
+                <div class="books-grid" id="antiguo-testamento">
+                    <!-- Los libros se insertarán aquí con JavaScript -->
+                </div>
+            </section>
+
+            <!-- Nuevo Testamento -->
+            <section class="testament-section">
+                <h3 class="testament-title">Nuevo Testamento</h3>
+                <div class="books-grid" id="nuevo-testamento">
+                    <!-- Los libros se insertarán aquí con JavaScript -->
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+<script type="module" src="../js/versiculo_diario.js"></script>
+<script type="module" src="../js/biblia.js"></script>
+<script src="../js/mobile-menu.js"></script>
+<script src="../js/register-sw.js"></script>
+</body>
+</html>

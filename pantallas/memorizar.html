@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorizar - Memoriza La Palabra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/biblia.css">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="../img/logo_2.png">
+    <meta name="theme-color" content="#0b1e3e">
+</head>
+<body class="memorizar-page-body">
+    <header class="header-lectura">
+        <div class="toolbar-lectura">
+            <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Volver al inicio</a>
+            <a href="coros.html" class="back-btn"><i class="fa-solid fa-music"></i> Himnos de coros</a>
+        </div>
+
+        <div class="titulo-lectura">
+            <h1 id="memorizar-titulo">Memorizar versículos</h1>
+        </div>
+    </header>
+
+    <main class="main-content memorizar-page">
+        <section class="leer-screen">
+            <div class="memorizar-panel">
+                <details id="selector-versiculos-panel" class="selector-versiculos-panel">
+                    <summary>Seleccionar versículos para memorizar</summary>
+                    <section class="selector-versiculos" aria-labelledby="selector-titulo">
+                        <h2 id="selector-titulo">Elige un libro, capítulo y versículos</h2>
+                        <div class="selector-versiculos-controles">
+                            <label>
+                                Libro
+                                <select id="selector-libro">
+                                    <option value="">Selecciona un libro</option>
+                                </select>
+                            </label>
+                            <label>
+                                Capítulo
+                                <select id="selector-capitulo" disabled>
+                                    <option value="">Selecciona un capítulo</option>
+                                </select>
+                            </label>
+                        </div>
+                        <p id="selector-mensaje" class="selector-mensaje" role="status"></p>
+                        <div id="lista-versiculos" class="lista-versiculos"></div>
+                        <button id="agregar-versiculos" class="btn-primary" type="button" disabled>
+                            Agregar seleccionados a la práctica
+                        </button>
+                    </section>
+                </details>
+
+                <div id="sin-datos" class="sin-datos" style="display:none;">
+                    <h2>No hay versículos para memorizar</h2>
+                    <p>Selecciona un libro y un capítulo para elegir los versículos que quieres practicar.</p>
+                </div>
+
+                <div id="memorizar-content" class="memorizar-content">
+                    <div class="memorizar-info">
+                        <p id="progreso-text" class="progreso-text">Verso 0/0</p>
+                        <p id="verso-info" class="verso-info"></p>
+                        <p id="tiempo-restante" class="tiempo-restante" aria-live="polite">Tiempo para memorizar: 02:00</p>
+                        <p id="errores-count" class="errores-count" aria-live="polite">Errores en este versículo: 0</p>
+                    </div>
+
+                    <div id="verso-area" class="verso-area"></div>
+
+                    <div class="memorizar-actions">
+                        <button id="btn-check" class="btn-primary">Verificar respuestas</button>
+                        <button id="btn-reset" class="btn-secondary" type="button">Reiniciar versículo</button>
+                        <a href="../index.html" class="btn-secondary">Volver al inicio</a>
+                    </div>
+
+                    <div id="mensaje-resultado" class="mensaje-resultado"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="../js/memorizar.js"></script>
+    <script type="module" src="../js/versiculo_diario.js"></script>
+    <script src="../js/mobile-menu.js"></script>
+    <script src="../js/register-sw.js"></script>
+</body>
+</html>
