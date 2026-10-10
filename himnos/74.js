@@ -1,0 +1,4 @@
+export default {
+    nombre: "FELIZ, FELIZ CUMPLEAÑOS",
+    letra: "C                                 F               C\nFeliz, feliz cumpleaños deseamos para ti\nF              C              G\nQue el Dios Omnipotente te quiera bendecir\nF                   C               F                   C\nFeliz, feliz cumpleaños que Dios en su bondad\nF                 C         G           C\nTe dé muy larga vida, salud, felicidad\nC                                   F                    C\nA Dios le damos gracias que con sin par bondad\nF                          C         G\nAl fin de otro año hermoso te permitió llegar\nF                   C               F                   C\nFeliz, feliz cumpleaños que Dios en su bondad\nF                 C         G           C\nTe dé muy larga vida, salud, felicidad"
+};

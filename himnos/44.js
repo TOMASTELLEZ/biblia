@@ -1,0 +1,4 @@
+export default {
+    nombre: "SOMOS UNO EN ESPIRITU",
+    letra: "Em\nSomos uno en espíritu y en el Señor\nAm                    Em\nSomos uno en espíritu y en el Señor\nAm                                 Em\ny oramos que un día sea completa nuestra unión\nCoro\nC\nY que somos cristianos lo sabrán\nAm              Em       Am                 Em\nlo sabrán, porque unidos estamos en su amor\nEm\nMarcharemos unidos lado a lado en amor\nAm                         Em\nMarcharemos unidos lado a lado en amor\nAm                                         Em\nanunciando que aquí se encuentra el gran poder de Dios\nEm\nGloria al Padre que es fuente de toda bendición\nAm                         Em\nGloria a Cristo su hijo que nos da la salvación\nAm                        Em\nY a su Espíritu Santo que nos une en comunión"
+};

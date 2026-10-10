@@ -1,0 +1,4 @@
+export default {
+    nombre: "¡GLORIA, GLORIA, ALELUYA !",
+    letra: "G\nEs el Dios de los ejércitos en quien yo confiare\nC                              G\nY con címbalos de gozo al Señor ensalzare\nG\nEl despide los relámpagos, más nunca temeré\nC        D      G\nEl es mi protector\nCoro\nG\nGloria, gloria aleluya\nC                   G\nGloria, gloria aleluya\nG\nGloria, gloria aleluya\nE         G\na Cristo doy loor\nG\nCon ejército no gana sus victorias el Señor\nC\nni con fuerza lucha en contra de luzbel el tentador\nG\nLa potencia del espíritu ha dicho el Dios de amor\nC         D      G\nes lo que vencerá\nG\nEn Belén de Palestina el Señor Jesús nació\nC\ny después de treinta años en la cruenta cruz murió\nG\npero vive para siempre pues la tumba ya venció\nC          D     G\nsu Nombre alabaré"
+};

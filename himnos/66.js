@@ -1,0 +1,4 @@
+export default {
+    nombre: "SALMO 100",
+    letra: "INTRO\nC-Am-Dm-G-C\nAm                                 Dm\nCantad alegres a Jehová habitantes de toda la tierra\nG           C\nServid a Dios con alegría venid a Él con regocijo\nCoro\nAm\nAleluya, gloria, aleluya (Gloria a Dios)\nDm\nAleluya, gloria, aleluya (Gloria a Dios)\nG\nAleluya, gloria, aleluya (Gloria a Dios)\nC\nAleluya, gloria, aleluya (Gloria a Dios)\nAm\nReconoced que Jehová es Dios El nos hizo y no nosotros\nDm\nmismos\nG                             C\nPueblo suyo somos todos y ovejas de su prado\nAm\nEntrad por puertas con acción de gracia por sus atrios\nDm\ncon alabanzas\nG\nAlabadle bendecid su nombre, alabadle bendecid su\nC\nnombre\nAm\nPorque Jehová es siempre bueno y para siempre es su\nDm\nmisericordia\nG                C\nY su verdad permanece por todas las generaciones"
+};

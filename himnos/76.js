@@ -1,0 +1,4 @@
+export default {
+    nombre: "SALMO 150",
+    letra: "G           Em   Am             D7\n//Lo que respira alabe a Jehová\nG           Em   Am             D7\nLo que respira alabe a Jehová\nG                                           Em\nAlabad a nuestro Dios en su santuario\nAm\nEn la hermosura de su cielo\nD7\nPor sus proezas alabadle a El\nG                                           Em\nAlabadle por la grandeza de su nombre\nAm\nCon el sonido de bocinas\nD7\nSalterio y arpa a la vez cantad\nAm      D7                        G   - Em\nAlabadle con el alegre pandero\nAm    - D7\nCon el candor de una danza\nG  - G7\nCantad con gozo al Señor\nAm      D7                               G       - Em\nAlabadle con cuerdas, flautas y címbalo\nAm    D7\nDe júbilo resonantes en su lenguaje todo//\nG           Em   Am             D7\n////Lo que respira alabe a Jehová////"
+};

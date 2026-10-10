@@ -1,0 +1,4 @@
+export default {
+    nombre: "TOMA TIEMPO PARA ORAR",
+    letra: "C                               G\nAl amanecer de una hermosa mañana\nG               G7               C\nCuando las aves trinos cantan al  Señor\nC        C7               F\nPuedo oír una voz que me  dice:\nC        G       C\nToma tiempo para orar.\nCoro\nG                          C\nEn Cristo yo pongo mis cargas\nF                      C\nEl es más que vida en mí\nG                   C\nEl calma  mis desalientos\nF                           G\nCada día me acompaña a mí\nC\n¿Que no oyes la invitación\nC7               F\nAl jardín de la oración?\nC        G       C\nToma tiempo para orar.\nC                           G\nSi me buscas en jugare tu llanto\nG                  G7            C\nCuando muchos no te quieran ayudar\nC         C7                  F\nBorrare tu tristeza y tu  quebranto\nC         G       C\nSi das tiempo para orar."
+};

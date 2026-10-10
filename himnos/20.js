@@ -1,0 +1,4 @@
+export default {
+    nombre: "SUBLIME GRACIA",
+    letra: "E                 A       E\nSublime  gracia del Señor\nE            B7\nQue un infeliz salvo\nE       E7          A     E\nFui ciego mas hoy miro yo\nE    B7            E\nPerdido y El me hallo\nE                    A       E\nSu gracia me enseño a temer\nE                 B7\nMis dudas ahuyento\nE        E7        A         E\n¡Oh cuan precioso  fue a mi ser\nE         B7        E\nCuando El me transformo!\nE                A       E\nEn los peligros o aflicción\nE                   B7\nQue yo he tenido aquí\nE     E7          A     E\nSu gracia siempre me libro,\nE       B7   E\nY me guiara feliz\nE                         A        E\nY cuando en Sion por siglos mil\nE                    B7\nBrillando este cual sol\nE    E7        A           E\nYo cantare por siempre allí\nE          B7     E\nSu amor que me salvo"
+};

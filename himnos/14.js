@@ -1,0 +1,4 @@
+export default {
+    nombre: "CUANDO YO SENTÍ EL AMOR DE DIOS",
+    letra: "D               G        D\nCuando yo sentí el amor de Dios\nD                 G           A---G\nQue me demostró en la cruz\nD               G          D\nCuando yo sentí en mi corazón\nG            A                  D - D7\nQue en la cruz por mi murió\nCoro\nG                 A\nTan grande amor es del Señor\nD                  Bm\nQue no puedo comprender\nG        A   D                      D7\nQue me amara a mí siendo lo que  soy\nG               A\nEs imposible entender\nD                Bm\nLa grandeza de su amor\nG           A   G     A    D\nGracias Señor por tu amor\nD            G               D\nPor esta causa doblo mis rodillas\nD          G              A---G\nAnte el Padre de Jesús\nD         G              D\nEl te quiere demostrar a ti\nG      A              D – D7\nSu justicia en la cruz."
+};

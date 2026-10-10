@@ -1,0 +1,4 @@
+export default {
+    nombre: "EL VINO A MI CORAZON",
+    letra: "G\nCuan glorioso es el cambio operado en mí ser,\nC                            G\nViniendo a mi vida el Señor;\nG\nHay en mi alma una paz que yo ansiaba tener,\nA                              D\nLa paz que me trajo su amor\nCoro\nG\nEl vino a mi corazón\nC                   G\nEl vino a mi corazón\nG                                          G7\nSoy feliz con la vida que Cristo me dio\nC        D        G\nEl vino a mi corazón.\nG\nYa no voy por la senda que el mal me trazo,\nC                           G\nDo solo encontré confusión;\nG\nMis pecados pasados Jesús los borro,\nA                  D\nEl vino a mi corazón.\nG\nNi una sombra de duda oscurece su amor\nC                              G\nAmor que me trajo el perdón\nG\nLa esperanza que aliento la debo al Señor,\nA                   D\nEl vino a mi corazón."
+};

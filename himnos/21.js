@@ -1,0 +1,4 @@
+export default {
+    nombre: "AL REY ADORAD",
+    letra: "G                      C         D\nAl rey adorad grandioso Señor\nG                     C       D      G\nY con gratitud cantad de su amor\nD\nAnciano de días nuestro defensor\nG                     C  D     G\nDe gloria vestido te damos loor\nG                         C           D\nDecid de su amor su gracia cantad\nG                 C      D    G\nVestido de luz y de majestad\nD\nSu carro de fuego en las nubes mirad\nG                           C  D         G\nSon negras sus huellas en la tempestad\nG                    C              D\nMuy frágiles son los hombres aquí\nG                       C       D   G\nMás por tu bondad confiamos en ti\nD\nTu misericordia ¡cuan firme! ¡Cuan fiel!\nG                           C      D      G\nCreador nuestro amigo y Redentor es el."
+};

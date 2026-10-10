@@ -1,0 +1,4 @@
+export default {
+    nombre: "JUNTO A LA CRUZ",
+    letra: "E                              A          E\nJunto a la cruz, do murió mi Señor\nB7\nPor mis pecados clame con fervor;\nE                    A             E\nQue maravilla Jesús me salvo\n¡A su nombre gloria!\nCoro\nA                   E\n¡A su nombre gloria!\nF#m               B7\n¡A su nombre gloria!\nE                    A              E\nQue maravilla Jesús me  salvo\n¡A su nombre gloria!\nE                         A          E\nJunto a la cruz recibí el perdón\nB7\nLimpio en su sangre es mi corazón\nE                          A         E\nLlena es mi alma de gozo y paz\n¡A su nombre gloria!\nE                           A          E\nVen sin tardar a la cruz pecador\nB7\nAllí te espera Jesús Salvador\nE                       A         E\nAllí de Dios hallarás el amor\n¡A su nombre gloria!"
+};
